@@ -1,2 +1,2 @@
 # Madum-Island
-Projet skyblock
+Dépôt de test pour comprendre Codex et GitHub.
