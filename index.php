@@ -10,10 +10,10 @@
 </head>
 <body>
     <h1>Madum-Island</h1>
-    <p>Liste des prochains matchs (donnés par l'API sportdb.net). Faites vos pronos sans mise d'argent !</p>
+    <p>Liste des prochains matchs (donnés par l'API https://www.thesportsdb.com). Faites vos pronos sans mise d'argent !</p>
     <?php
     $events = [];
-    $url = 'https://www.sportdb.net/api/v1/json/1/eventsnextleague.php?id=4328'; // Premier League par exemple
+    $url = 'https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id=4328'; // Premier League par exemple
     $data = @file_get_contents($url);
     if ($data !== false) {
         $json = json_decode($data, true);
